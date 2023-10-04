@@ -1,0 +1,122 @@
+/*
+style.css
+Module 7 Assignment
+Name: Brittany Kyncl
+Date: 9.10.23
+Course: CSD440
+Note:
+- This CSS file is an integral part of BrittForm for user registration and profile display
+*/
+body {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #CCE7F4
+}
+.header {
+    font-size: 18px;
+    color: #ffff;
+    padding: 20px 0px 5px 40px;
+    background-color: #0D2130;
+    border-bottom: 10px solid;
+    border-color: #376068;
+}
+h1 {
+    text-align: center;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+}
+
+.input-table {
+    border-collapse: separate;
+    border-spacing: 3px;
+    border: 3px solid;
+    border-radius: 4px;
+    margin: 10px;
+
+}
+
+.input-table input[type="date"]  {
+    border: 3px solid #0D2130;
+    border-radius: 10px;
+    padding: 5px; 
+    float: left;
+}
+.input-table input[type="text"],
+.input-table input[type="password"],
+.input-table select {
+    border: 3px solid #0D2130;
+    border-radius: 10px;
+    padding: 5px;
+    width: 90%;
+    float: left;
+}
+.input-table button{
+    background-color: #0D2130; 
+    color: #ffffff; 
+    border: 3px solid #0D2130;
+    border-radius: 10px;
+    padding: 6px;
+    min-width: 160px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s; 
+}
+.input-table button:hover{
+    background-color: #ffffff; 
+    color: #0D2130; 
+}
+.input-table th {
+    background-color: #376068;
+    color: #ffff;
+}
+.input-table td,th{
+    border-radius: 3px;
+    padding: 15px;
+    min-width: 20vw;
+}
+strong {
+    float: right;
+}
+.input-table tr:nth-child(even) {
+    background-color: #F7FAF8;
+}
+.input-table tr:nth-child(odd) {
+    background-color: #E0F0F2;
+}
+
+.validation-errors ul {
+    width: 200px;
+}
+.validation-errors li{
+    list-style: none;
+    color: rgb(196, 63, 63); 
+    font-size: 15px;
+    padding-top: 5px;
+    text-align: left;
+}
+.checkbox-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 350px;
+}
+
+.checkbox {
+    margin-right: 20px; /* Adjust the spacing between checkboxes as needed */
+}
+
+
+
+
+
+

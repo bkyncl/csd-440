@@ -1,0 +1,117 @@
+/*
+style.css
+Module 4 Assignment
+Name: Brittany Kyncl
+Date: 8.26.23
+Course: CSD440
+Note:
+- This CSS file is an integral part of the Palindrome Checker application ensure it is within the 'BrittPalindrome' dir.
+*/
+body {
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    background-color: #CCE7F4
+}
+.header {
+    font-size: 18px;
+    color: #ffff;
+    padding: 20px 0px 5px 40px;
+    background-color: #0D2130;
+    border-bottom: 10px solid;
+    border-color: #376068;
+}
+h1 {
+    text-align: center;
+}
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 10px;
+}
+.input-table, 
+.output-table {
+    border-collapse: separate;
+    border-spacing: 3px;
+    border: 3px solid;
+    border-radius: 4px;
+    margin: 10px;
+    flex-basis: calc(30% - 20px);
+    height: 200px;
+    min-width: 350px;
+}
+.input-table input[type="text"] {
+    border: 3px solid #0D2130;
+    border-radius: 10px;
+    padding: 5px;
+    width: 180px; 
+    font-size: 14px;
+}
+.input-table button {
+    background-color: #0D2130; 
+    color: #ffffff; 
+    border: 3px solid #0D2130;
+    border-radius: 10px;
+    padding: 5px;
+    width: 120px;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s, color 0.2s; 
+}
+.input-table button:hover {
+    background-color: #E0F0F2; 
+    color: #0D2130; 
+}
+#example-table {
+  width: 61%;
+  min-width: 350px;
+  flex-basis: calc(60% - 20px);
+}
+.input-table th, 
+.output-table th {
+    background-color: #376068;
+    color: #ffff;
+}
+.input-table td,th, 
+.output-table td, th{
+    border-radius: 3px;
+    padding: 15px;
+}
+.input-table tr:nth-child(even),
+.output-table tr:nth-child(even) {
+    background-color: #F7FAF8;
+}
+.input-table tr:nth-child(odd),
+.output-table tr:nth-child(odd) {
+    background-color: #E0F0F2;
+}
+.label {
+    font-weight: bold;
+    display: block;
+    text-align: right;
+    padding: 5px;
+}
+.error-message {
+    margin: 0 auto;
+    padding: 0;
+}
+.result {
+    display: block;
+    text-align: left;
+    padding: 5px;
+}
+.label-container,
+.result-container {
+    display: inline-block;
+    vertical-align: top;
+}
+.output-row {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
