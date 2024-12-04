@@ -52,7 +52,7 @@ $error = isset($_GET['error']) ? urldecode($_GET['error']) : "";
                             <div class="mb-3">
                                 <label for="database" class="form-label">Database</label>
                                 <select class="form-control" id="database" name="database">
-                                    <option value="baseball_01">baseball_01</option>
+                                    <option value="astronomy_db">astronomy_db</option>
                                 </select>
                             </div>
                             <!-- Display errors if present -->

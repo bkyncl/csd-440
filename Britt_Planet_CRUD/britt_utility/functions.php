@@ -31,7 +31,7 @@ function checkCredentials($username, $password, $database) {
     // Hardcoded valid username and password
     $validUsername = "student1"; // check for username
     $validPassword = "pass"; // check for password
-    $validDatabase = "baseball_01"; // check for database
+    $validDatabase = "astronomy_db"; // check for database
 
     // Check if the provided username and password match the valid credentials
     if ($username === $validUsername && $password === $validPassword && $database == $validDatabase) {

@@ -13,7 +13,7 @@ and it throws a PDOException with an error message if any issues occur during th
 // Function to establish a database connection
 function connectToDatabase() {
     // connection parameters
-    $dsn = "mysql:host=localhost;dbname=baseball_01";
+    $dsn = "mysql:host=localhost;dbname=astronomy_db";
     $username = "student1";
     $password = "pass";
 
