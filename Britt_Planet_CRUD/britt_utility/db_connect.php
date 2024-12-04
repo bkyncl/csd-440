@@ -32,4 +32,3 @@ function connectToDatabase() {
         throw new PDOException("Connection failed: " . $e->getMessage());
     }
 }
-?>
